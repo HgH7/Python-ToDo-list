@@ -20,9 +20,15 @@ while True:
             print(num,'-',task)
         break
     while x == 3:
+        if not tasks:
+            print("there's no tasks to delete")
+            break
         v = int(input("enter the number of the task you wanna delete: "))
         tasks.pop(v-1)
         break
+        
+        
+
 
 
 
