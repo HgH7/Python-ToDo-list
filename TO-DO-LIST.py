@@ -25,6 +25,7 @@ while True:
             break
         v = int(input("enter the number of the task you wanna delete: "))
         tasks.pop(v-1)
+        print("Task deleted")
         break
         
         
